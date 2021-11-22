@@ -1,10 +1,13 @@
 import FruitsPage from "./Components/FruitsPage";
+import GlobalStyle from "./GlobalStyled";
+import { StyledApp } from "./StylesApp";
 
 function App() {
   return (
-    <div>
+    <StyledApp>
+      <GlobalStyle />
       <FruitsPage />
-    </div>
+    </StyledApp>
   );
 }
 
